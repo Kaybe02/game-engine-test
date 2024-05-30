@@ -27,9 +27,15 @@
     <ClInclude Include="src\Kaybe\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Kaybe\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Kaybe\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kaybe\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

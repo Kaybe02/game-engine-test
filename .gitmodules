@@ -1,0 +1,3 @@
+[submodule "Kaybe/vendor/spdlog"]
+	path = Kaybe/vendor/spdlog
+	url = https://github.com/gabime/spdlog
