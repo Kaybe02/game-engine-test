@@ -33,10 +33,10 @@ namespace Kaybe {
 #define KB_CORE_FATAL(...)       ::Kaybe::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 
 //Client log macros
-#define KB_ERROR(...)	     ::Kaybe::Log::GetClientLogger()->error(__VA_ARGS__)
-#define KB_WARN(...)        ::Kaybe::Log::GetClientLogger()->warn(__VA_ARGS__)	
-#define KB_INFO(...)        ::Kaybe::Log::GetClientLogger()->info(__VA_ARGS__)	
-#define KB_TRACE(...)       ::Kaybe::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define KB_FATAL(...)       ::Kaybe::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define KB_ERROR(...)			 ::Kaybe::Log::GetClientLogger()->error(__VA_ARGS__)
+#define KB_WARN(...)			 ::Kaybe::Log::GetClientLogger()->warn(__VA_ARGS__)	
+#define KB_INFO(...)			 ::Kaybe::Log::GetClientLogger()->info(__VA_ARGS__)	
+#define KB_TRACE(...)			 ::Kaybe::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define KB_FATAL(...)			 ::Kaybe::Log::GetClientLogger()->fatal(__VA_ARGS__)
 
 
